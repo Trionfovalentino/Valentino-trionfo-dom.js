@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Rubrica Contatti</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>La Mia Rubrica</h1>
+        
+        <div class="form-group">
+            <input type="text" id="inputName" placeholder="Nome contatto">
+            <input type="text" id="inputPhone" placeholder="Numero di telefono">
+            <button id="btnAdd">Aggiungi Contatto</button>
+        </div>
+
+        <div class="controls">
+            <button id="btnShowHide">Nascondi Lista</button>
+        </div>
+
+        <table id="contactTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefono</th>
+                    <th>Azioni</th>
+                </tr>
+            </thead>
+            <tbody id="contactList">
+                </tbody>
+        </table>
+    </div>
+
+    <script src="main2.js"></script>
+</body>
+</html>
