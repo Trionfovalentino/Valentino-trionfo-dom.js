@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.display {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+.controls button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+#startBtn { background-color: #28a745; }
+#pauseBtn { background-color: #ffc107; color: #333; }
+#resetBtn { background-color: #dc3545; }
+
+button:hover { opacity: 0.8; }
